@@ -10,11 +10,11 @@ We are going to follow next steps:
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.  
 
 ## Linear Regression to Predict MPG
-
+![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/linear_regression_summary.png)  
 * From the dataset results we can see the following variables/coefficients provided a non-random amount of variance to the mpg values:  
-- vehicle weight(0.0776)  
-- spoiler angle(0.3069)  
-- AWD(All Wheel Drive)(0.1852)  
+-- vehicle weight(0.0776)  
+-- spoiler angle(0.3069)  
+-- AWD(All Wheel Drive)(0.1852)  
 
 * Is the slope of the linear model considered to be zero? Why or why not?  
 We can conclude that the slope of the linear model is not considered to be zero because the p-value is less than the significance level of 0.05.
