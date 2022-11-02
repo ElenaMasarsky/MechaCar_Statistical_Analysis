@@ -12,13 +12,14 @@ We are going to follow next steps:
 ## Linear Regression to Predict MPG
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/linear_regression_summary.png)  
 * From the dataset results we can see the following variables/coefficients provided a non-random amount of variance to the mpg values:  
--- vehicle weight(0.0776)  
--- spoiler angle(0.3069)  
--- AWD(All Wheel Drive)(0.1852)  
+ - vehicle weight(0.0776)  
+ - spoiler angle(0.3069)  
+ - AWD(All Wheel Drive)(0.1852)  
 
 * We can conclude that the slope of the linear model is not considered to be zero because the p-value is less than the significance level of 0.05.
 
 * The R-squared value is 0.7149. This means that thelinear model predicts mpg of MechaCar prototypes effectively.  
+## Summary Statistics on Suspension Coils  
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)  
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)  
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
