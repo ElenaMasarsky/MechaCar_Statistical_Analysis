@@ -19,3 +19,8 @@ We are going to follow next steps:
 * We can conclude that the slope of the linear model is not considered to be zero because the p-value is less than the significance level of 0.05.
 
 * The R-squared value is 0.7149. This means that thelinear model predicts mpg of MechaCar prototypes effectively.  
+![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)  
+![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)  
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+The manufacturing data meets this design specification for all manufacturing lots in total because the variance is under 100 pounds per square inch.
+But Lot3 does not meet this requirement indivifually, because its variance is greater than 100 pound per square inch.
