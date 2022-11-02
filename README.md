@@ -16,8 +16,6 @@ We are going to follow next steps:
 -- spoiler angle(0.3069)  
 -- AWD(All Wheel Drive)(0.1852)  
 
-* Is the slope of the linear model considered to be zero? Why or why not?  
-We can conclude that the slope of the linear model is not considered to be zero because the p-value is less than the significance level of 0.05.
+* We can conclude that the slope of the linear model is not considered to be zero because the p-value is less than the significance level of 0.05.
 
-* Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-The R-squared value is 0.7149. This means that thelinear model predicts mpg of MechaCar prototypes effectively.  
+* The R-squared value is 0.7149. This means that thelinear model predicts mpg of MechaCar prototypes effectively.  
