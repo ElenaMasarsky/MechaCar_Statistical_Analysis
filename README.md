@@ -28,8 +28,24 @@ The manufacturing data meets this design specification for all manufacturing lot
 But Lot3 does not meet this requirement indivifually, because its variance is greater than 100 pound per square inch.  
 
 ## T-Tests on Suspension Coils  
+Now we are going to perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean
+ of 1,500 pounds per square inch.The t.test()function should produce our test statistic "t" along with our p-value, which we can use to evaluate our
+ null hypothesis.  
+### T-Test for all lots  
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/t_test_all_lots.png)  
-![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot1.png)  
+Assuming our significance level was the common 0.05 percent, our p-value for all lots equal to 0.06028, which is above our significance level. Therefore,
+we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. There's no statistical
+difference between the observed sample mean and the population mean.
+### T-Test for Lot1
+![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot1.png)
+p-value for Lot1 is equal to 1. We can make conclusion that there's no statistical difference between the observed sample mean and the population mean.
+### T-test for Lot2
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot2.png)  
+p-value for Lot2 is equal to 0.6072. We can make conclusion that there's no statistical difference between the observed sample mean and the population mean.
+
+### T-test for Lot3
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot3.png)  
+p-value for Lot3 is equal to 0.04168, which is lower our significance level . We can make conclusion that there is statistical difference between
+ the observed sample mean and the population mean. In this case we are going to reject our null hypothesis.
+
 
