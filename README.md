@@ -54,7 +54,7 @@ Here we want to design a statistical study that can quantify how the MechaCar pe
 * What metric or metrics are you going to test?  
 highway fuel efficiency
 * What is the null hypothesis or alternative hypothesis?  
-HO: There is no statistical difference between MechaCar's highway fuel efficiency and competition's highway fuel efficiency.
+HO: There is no statistical difference between MechaCar's highway fuel efficiency and competition's highway fuel efficiency.  
 Ha: There is a statistical difference between MechaCar's highway fuel efficiency and competition's highway fuel efficiency.
 * What statistical test would you use to test the hypothesis? And why?  
 I think t-test is best fit to complete this statistical study if we are going to compare MechaCar vs one competitor. The t-test is a statistical test
