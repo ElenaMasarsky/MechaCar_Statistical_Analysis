@@ -45,7 +45,7 @@ p-value for Lot2 is equal to 0.6072. We can make conclusion that there's no stat
 
 ### T-test for Lot3  
 ![pic](https://github.com/ElenaMasarsky/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot3.png)  
-p-value for Lot3 is equal to 0.04168, which is lower our significance level . We can make conclusion that there is statistical difference between
+p-value for Lot3 is equal to 0.04168, which is lower than our significance level . We can make conclusion that there is statistical difference between
  the observed sample mean and the population mean. In this case we are going to reject our null hypothesis.  
 
 ## Study Design: MechaCar vs Competition  
@@ -54,8 +54,8 @@ Here we want to design a statistical study that can quantify how the MechaCar pe
 * What metric or metrics are you going to test?  
 highway fuel efficiency
 * What is the null hypothesis or alternative hypothesis?  
-The null hypothesis is that the mean of highway fuel efficiency is zero. The alternative hypothesis is that the mean of the  highway fuel efficiency
- is not zero.  
+HO: There is no statistical difference between MechaCar's highway fuel efficiency and competition's highway fuel efficiency.
+Ha: There is a statistical difference between MechaCar's highway fuel efficiency and competition's highway fuel efficiency.
 * What statistical test would you use to test the hypothesis? And why?  
 I think t-test is best fit to complete this statistical study if we are going to compare MechaCar vs one competitor. The t-test is a statistical test
  that is used to compare the means of two groups. It is often used in hypothesis testing to determine whether two groups are different from one another.  
